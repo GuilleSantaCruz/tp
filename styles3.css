@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d665036;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ff0000;
+    color: #000000;
+    text-align: center;
+  }
+  
+  nav{
+    background-color: #af1e1e;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #ff0000;
+    color: #000000;
+    text-align: center;
+  }
+  
+  /* Estilos específicos para secciones */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    color: #333;
+  }
+  
+  section p {
+    color: #666;
+  }
